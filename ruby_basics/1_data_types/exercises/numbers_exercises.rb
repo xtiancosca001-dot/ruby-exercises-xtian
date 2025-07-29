@@ -9,6 +9,7 @@ def subtract(a, b)
 end
 
 def multiply(a, b)
+  a * b
   # return the result of multiplying a times b
 end
 
