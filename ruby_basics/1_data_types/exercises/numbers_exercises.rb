@@ -19,6 +19,7 @@ def divide(a, b)
 end
 
 def remainder(a, b)
+  a % b
   # return the remainder of dividing a by b using the modulo operator
 end
 
