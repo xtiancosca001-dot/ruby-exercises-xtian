@@ -34,6 +34,7 @@ def string_to_number(string)
 end
 
 def even?(number)
+  number.even?
   # return true if the number is even (hint: use integer's even? method)
 end
 
