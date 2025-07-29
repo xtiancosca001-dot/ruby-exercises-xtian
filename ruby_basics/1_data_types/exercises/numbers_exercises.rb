@@ -24,6 +24,7 @@ def remainder(a, b)
 end
 
 def float_division(a, b)
+  a.to_f / b.to_f
   # return the result of dividing a by b as a float, rather than an integer
 end
 
