@@ -29,6 +29,7 @@ def float_division(a, b)
 end
 
 def string_to_number(string)
+  string.to_i
   # return the result of converting a string into an integer
 end
 
