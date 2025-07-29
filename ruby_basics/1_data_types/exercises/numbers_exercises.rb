@@ -4,6 +4,7 @@ def add(a, b)
 end
 
 def subtract(a, b)
+  a - b
   # return the result of subtracting b from a
 end
 
