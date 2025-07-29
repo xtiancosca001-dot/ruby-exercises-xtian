@@ -14,6 +14,7 @@ def multiply(a, b)
 end
 
 def divide(a, b)
+  a / b
   # return the result of dividing a by b
 end
 
