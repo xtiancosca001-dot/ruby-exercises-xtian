@@ -23,6 +23,9 @@ end
 # parameter: games (an array)
 # return value: games, alphabetically sorted and duplicates removed
 # hint: chain Array#uniq and Array#sort together
+def alphabetical_list(games)
+  games.uniq.sort
+end
 
 
 # method name: #lucky_number
