@@ -54,6 +54,13 @@ end
 # console output: if animal is 'dog', 'Dogs are paw-some!' (awesome)
 # console output: otherwise, "I think <animal>s have pet-tential!" (potential)
 # hint: use puts
+def pet_pun(animal)
+  puts case animal
+    when 'cat' then "Cats are purr-fect!"
+    when 'dog' then "Dogs are paw-some!"
+    else "I think #{animal}s have pet-tential!"
+  end
+end
 
 
 # method name: #twenty_first_century?
