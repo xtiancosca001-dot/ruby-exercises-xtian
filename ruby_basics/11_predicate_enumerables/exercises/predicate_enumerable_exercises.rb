@@ -1,5 +1,6 @@
 def coffee_drink?(drink_list)
   # use #include? to return true when the drink_list (array) contains the string "coffee" or "espresso"
+  drink_list.any? { |drink| drink.include?('coffee') || drink.include?('espresso') }
 end
 
 def correct_guess?(guess_list, answer)
