@@ -26,7 +26,9 @@ end
 
 def delete_information_about_language(languages, language_name, info_key)
   # Take languages and delete the key/value pair with key info_key from
+  languages[language_name].delete(info_key)
   # language_name, then return languages
+  languages
 end
 
 def delete_language(languages, language_name)
