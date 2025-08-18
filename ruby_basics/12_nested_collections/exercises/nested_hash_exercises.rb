@@ -40,6 +40,7 @@ end
 
 def find_beautiful_languages(languages)
   # Take languages and return a hash containing only languages which have the
+  languages.select {|language_name, info| info[:is_beautiful?]}
   # key/value pair { is_beautiful?: true } listed in their information
 end
 
